@@ -1,0 +1,57 @@
+body{
+    background-color: lavenderblush;
+}
+.heading{
+     font-family: "Public Sans", sans-serif;
+     display:flex;
+     justify-content:center;
+     font-weight: 400;
+     margin:0;
+}
+span, #name{
+    font-family: "Bad Script", cursive;
+    display:flex;
+     justify-content:center;
+     font-size: xx-large;
+     margin-bottom: 0;
+     color: #744ee6;
+}
+.main{
+    margin-top:3rem;
+}
+#quotes{
+   height:fit-content;
+   width: 400px;
+    background-color: #b8c0ff;
+    margin:auto;
+    margin-top: 3rem;
+    border-radius:15px;
+    padding:3rem;
+}
+.quotearea{
+    font-size: 1.5rem;
+    font-family: "Public Sans", sans-serif;
+}
+.author, #name{
+    padding-top:0.9rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+button{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    margin-top:1rem;
+   
+    background-color:lavenderblush ;
+    font-family:"Public Sans", sans-serif;
+    font-size:1.2rem;
+    font-weight: 700;
+   border: #9f86ed solid 2px;
+   padding:.8rem;
+   border-radius:20px;
+    }
+button:hover{
+    background-color: #9f86ed;
+    color: black;
+}
